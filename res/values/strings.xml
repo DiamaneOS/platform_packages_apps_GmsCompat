@@ -6,7 +6,7 @@
     <string name="open_settings">Open settings</string>
     <string name="persistent_fg_service_notif">Sandboxed Google Play is running</string>
 
-    <string name="usage_guide">Usage guide</string>
+    <string name="usage_guide">GrapheneOS usage guide</string>
     <string name="play_services">Play services</string>
     <string name="play_services_special_permissions">Play services special permissions</string>
     <string name="play_services_special_permissions_summary">ICC authentication, RCS activation</string>

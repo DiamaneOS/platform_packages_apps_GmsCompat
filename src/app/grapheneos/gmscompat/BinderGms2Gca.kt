@@ -389,7 +389,7 @@ object BinderGms2Gca : IGms2Gca.Stub() {
         intent.setPackage(LogViewerApp.getPackageName());
 
         val reportAction = run {
-            val url = "https://github.com/GrapheneOS/os-issue-tracker/issues"
+            val url = "https://github.com/DiamaneOS/issue-tracker/issues"
             val urlIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             val label = ctx.getText(R.string.notif_gms_crash_report)
             Notification.Action.Builder(null, label, activityPendingIntent(urlIntent)).build()
